@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "massive": {
+      "command": "uvx",
+      "args": ["mcp_massive"],
+      "env": {
+        "MASSIVE_API_KEY": "${MASSIVE_API_KEY}"
+      }
+    }
+  }
+}
